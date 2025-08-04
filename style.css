@@ -110,3 +110,9 @@ padding-top: 1cm;
     cursor:pointer;
     margin-left: 0.2cm;
 }
+
+.logo img{
+    width:3cm;
+    height:fit-content;
+    margin-left: 2cm;
+}
