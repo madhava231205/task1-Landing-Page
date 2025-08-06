@@ -9,6 +9,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid orangered;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 .links{
     display: flex;
@@ -45,6 +48,12 @@
     width:3cm;
     height:1cm;
 
+
+}
+#start-button:hover{
+    background-color: darkgray;
+    border: 2px solid orangered;
+    color:black;
 
 }
 .content{
@@ -91,6 +100,11 @@ padding-top: 1cm;
     height:1cm;
     margin-left: 2cm;
 }
+.signup button:hover{
+    background-color: darkgray;
+    border: 2px solid orangered;
+    color:black;
+}
 .alternate{
     display: flex;
     flex-direction: column;
@@ -112,7 +126,7 @@ padding-top: 1cm;
 }
 
 .logo img{
-    width:3cm;
+    width:2cm;
     height:fit-content;
     margin-left: 2cm;
 }
